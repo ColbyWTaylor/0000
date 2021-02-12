@@ -86,18 +86,25 @@ function App() {
         </p>
 
         <h2>Github Steps Explained</h2>
-        <p>
-          <ul>
-            <li>echo "# 0000" {">>"} README.md</li>
-            <li>git init git add README.md</li>
-            <li>git commit -m "first commit"</li>
-            <li>git branch -M main</li>
-            <li>
-              git remote add origin https://github.com/ColbyWTaylor/0000.git
-            </li>
-            <li>git push -u origin main</li>
-          </ul>
-        </p>
+        <h3>Create a New Respository</h3>
+        <ul>
+          <li>echo "# 0000" {">>"} README.md</li>
+          <li>git init git add README.md</li>
+          <li>git commit -m "first commit"</li>
+          <li>git branch -M main</li>
+          <li>
+            git remote add origin https://github.com/ColbyWTaylor/0000.git
+          </li>
+          <li>git push -u origin main</li>
+        </ul>
+        <h3>Push Existing Repository from Command Line</h3>
+        <ol>
+          <li>
+            git remote add origin https://github.com/ColbyWTaylor/0000.git
+          </li>
+          <li>git branch -M main</li>
+          <li>git push -u origin main</li>
+        </ol>
       </div>
     </div>
   );
