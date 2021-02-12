@@ -80,8 +80,24 @@ function App() {
           <li>git push</li>
         </ol>
         <h2>Git Status</h2>
-        <code>git status</code> can be used to see the git status of files ready
-        to be committed, and those not.
+        <p>
+          <code>git status</code> can be used to see the git status of files
+          ready to be committed, and those not.
+        </p>
+
+        <h2>Github Steps Explained</h2>
+        <p>
+          <ul>
+            <li>echo "# 0000" {">>"} README.md</li>
+            <li>git init git add README.md</li>
+            <li>git commit -m "first commit"</li>
+            <li>git branch -M main</li>
+            <li>
+              git remote add origin https://github.com/ColbyWTaylor/0000.git
+            </li>
+            <li>git push -u origin main</li>
+          </ul>
+        </p>
       </div>
     </div>
   );
