@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  margin: auto;
+  max-width: 600px;
+  min-width: 50%;
+  padding: 30px;
 }
 
 .App-logo {
@@ -14,8 +18,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #030d14;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +39,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.logo {
+  color: crimson;
+  font-size: 2.5em;
+}
+
+.tagline {
+  color: rgb(161, 36, 46);
 }
