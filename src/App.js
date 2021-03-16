@@ -74,11 +74,9 @@ function App() {
           with a ".", as in ".git".
         </p>
         <h2>Git Steps After Setup</h2>
-        <ol>
-          <li>git add *</li>
-          <li>git commit -m "whatever note you have about changes"</li>
-          <li>git push</li>
-        </ol>
+        <p>git add *</p>
+        <p>git commit -m "a note on what you've been up to"</p>
+        <p>git push</p>
         <h2>Git Status</h2>
         <p>
           <code>git status</code> can be used to see the git status of files
@@ -87,24 +85,16 @@ function App() {
 
         <h2>Github Steps Explained</h2>
         <h3>Create a New Respository</h3>
-        <ul>
-          <li>echo "# 0000" {">>"} README.md</li>
-          <li>git init git add README.md</li>
-          <li>git commit -m "first commit"</li>
-          <li>git branch -M main</li>
-          <li>
-            git remote add origin https://github.com/ColbyWTaylor/0000.git
-          </li>
-          <li>git push -u origin main</li>
-        </ul>
+        <p>echo "# 0000" {">>"} README.md</p>
+        <p>git init git add README.md</p>
+        <p>git commit -m "first commit"</p>
+        <p>git branch -M main</p>
+        <p>git remote add origin https://github.com/ColbyWTaylor/0000.git</p>
+        <p>git push -u origin main</p>
         <h3>Push Existing Repository from Command Line</h3>
-        <ol>
-          <li>
-            git remote add origin https://github.com/ColbyWTaylor/0000.git
-          </li>
-          <li>git branch -M main</li>
-          <li>git push -u origin main</li>
-        </ol>
+        <p>git remote add origin https://github.com/ColbyWTaylor/0000.git</p>
+        <p>git branch -M main</p>
+        <p>git push -u origin main</p>
       </div>
     </div>
   );
