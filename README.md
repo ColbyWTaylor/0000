@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- dangerouslySetInnerHTML used for blog content < blog post?
+
+TODOs:
+date blog content
+add image for each
+additional media items
+update branding on home page
+install react router:
+    /blog/postName
+    /content -->
+
+<!-- add blog author
+add about page
+links to social -->
+
+<!-- app ideas -->
+
+browser extension to give examples using own code to make more clear (supply data, a page would have a user submitted reference of code on page, such as how function works, then user can supply - alternative to using additional editors/playgrounds to instantly incorporate code)
