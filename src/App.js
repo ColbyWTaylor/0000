@@ -17,7 +17,7 @@ function App() {
         </p>
         <p>
           Git, created by Linus Torvalds, is the modern standard in
-          <i>version control</i>. The basic premise is that by saving versions
+          <i> version control</i>. The basic premise is that by saving versions
           of a project, you are able to compare or rebuild from an earlier state
           without starting from scratch.
         </p>
